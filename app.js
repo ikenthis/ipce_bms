@@ -8,7 +8,7 @@ const AppError = require('./utils/appError');
 const app = express();
 app.use(cookieParser());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:4000', 'https://bms-auth-backend.vercel.app'],
+  origin: ['http://localhost:3000', 'http://localhost:4000', 'https://bms-ipce.vercel.app/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
